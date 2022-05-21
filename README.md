@@ -22,3 +22,10 @@ lmn.log({
     "severity": "log"
 })
 ```
+
+## API
+| API  | Effect | Returns |
+| ---- | --- | --- |
+| lmn.get("unix") | Returns unix time stamp | Date object |
+| lmn.get("today") | Returns formatted date string | String |
+| lmn.get("time") | Returns current hour | String |
