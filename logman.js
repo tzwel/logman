@@ -40,16 +40,17 @@ function log(what, logfile) {
             return console.log(`log severity must be of one of the types: ${acceptedSeverities}`);
         }
 
-        if (what.prepend) {
-            this.prepend = ` ${what.prepend}`
-        } else {
-            this.prepend = ""
-        }
-
         this.data = what.data
         this.severity = what.severity
 
-        logdata = `[${this.severity}]${this.prepend}, ${this.data} \n`
+        if (what.prepend) {
+            this.prepend = `${what.prepend}`
+            logdata = `[${this.severity}] ${this.prepend}, ${this.data} \n`
+        } else {
+            logdata = `[${this.severity}] ${this.data} \n`
+        }
+
+
     } else {
         logdata = `${what} \n`
     }
