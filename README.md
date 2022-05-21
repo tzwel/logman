@@ -1,5 +1,5 @@
 # logman
-A simple logger for node
+A simple logger for node, I made it for my personal projects
 
 ## Usage
 Import
