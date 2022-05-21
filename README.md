@@ -11,14 +11,14 @@ import lmn from 'logman.js'
 
 Simple log to the default `log.txt` file
 ```js
-    lmn.log("Some stuff")
+lmn.log("Some stuff")
 ``` 
 
 Logging with provided severity and time
 ```js
-    lmn.log({
-        "data": "Some stuff",
-        "prepend": lmn.get("time"),
-        "severity": "log"
-    })
+lmn.log({
+    "data": "Some stuff",
+    "prepend": lmn.get("time"),
+    "severity": "log"
+})
 ```
