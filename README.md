@@ -24,7 +24,7 @@ lmn.log({
 ```
 
 ## API
-| API  | Effect | Returns |
+| API | Returns | Type of response |
 | ---- | --- | --- |
 | lmn.get("unix") | Returns unix time stamp | Date object |
 | lmn.get("today") | Returns formatted date string | String |
