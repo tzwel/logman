@@ -18,7 +18,7 @@ Logging with provided severity and time
 ```js
     lmn.log({
         "data": "Some stuff",
-        "prepend": `${lmn.get("time")}`,
+        "prepend": lmn.get("time"),
         "severity": "log"
     })
 ```
