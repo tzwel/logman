@@ -1,0 +1,7 @@
+{
+  "name": "logman",
+  "version": "0.0.0",
+  "license": "MPL-2.0",
+  "languageName": "node",
+  "packageManager": "yarn@3.2.1"
+}
