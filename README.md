@@ -1,5 +1,5 @@
 # logman <img src="https://shields.io/github/license/tzwel/logman" alt="license" />
-A simple logger for node, I made it for my personal projects
+A simple logger for node I made for my personal projects
 
 ## Usage
 Import
